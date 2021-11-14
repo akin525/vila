@@ -7,7 +7,7 @@ Website: http://www.seantheme.com/color-admin/
 
 var handleSummernote = function() {
 	$(".summernote").summernote({
-		placeholder: "Hi, this is summernote. Please, write text here! Super simple WYSIWYG editor on Bootstrap",
+		placeholder: "",
 		height: $(window).height() * 0.5
 	});
 };

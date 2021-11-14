@@ -189,7 +189,7 @@ while($row = mysqli_fetch_array($result)) {
                     <div class="menu-divider m-0"></div>
                 </div>
                 <div class="menu-header">Navigation</div>
-                <div class="menu-item has-sub active">
+                <div class="menu-item">
                     <a href="dashboard.php" class="menu-link">
                         <div class="menu-icon">
                             <i class="fa fa-th-large"></i>
@@ -198,7 +198,7 @@ while($row = mysqli_fetch_array($result)) {
                     </a>
                 </div>
                 <div class="menu-item has-sub">
-                    <a href="" class="menu-link">
+                    <a href="noti.php" class="menu-link">
                         <div class="menu-icon">
                             <i class="fa fa-hdd"></i>
                         </div>
@@ -206,100 +206,35 @@ while($row = mysqli_fetch_array($result)) {
                     </a>
                 </div>
                 <div class="menu-item">
-                    <a href="" class="menu-link">
+                    <a href="allu.php" class="menu-link">
                         <div class="menu-icon">
                             <i class="fab fa-simplybuilt"></i>
                         </div>
-                        <div class="menu-text">All Wallet<span class="menu-label">NEW</span></div>
+                        <div class="menu-text">All Users<span class="menu-label">NEW</span></div>
                     </a>
                 </div>
                 <div class="menu-item has-sub">
-                    <a href="javascript:;" class="menu-link">
+                    <a href="#" class="menu-link">
                         <div class="menu-icon">
-                            <i class="fa fa-gem"></i>
+                            <i class="fa fa-wallet"></i>
                         </div>
-                        <div class="menu-text">UI Elements <span class="menu-label">NEW</span></div>
+                        <div class="menu-text">Transaction </div>
                         <div class="menu-caret"></div>
                     </a>
                     <div class="menu-submenu">
                         <div class="menu-item">
-                            <a href="ui_general.html" class="menu-link">
-                                <div class="menu-text">General <i class="fa fa-paper-plane text-theme"></i></div>
+                            <a href="tran1.php" class="menu-link">
+                                <div class="menu-text">Daily Deposit <i class="fa fa-paper-plane text-theme"></i></div>
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a href="ui_typography.html" class="menu-link">
-                                <div class="menu-text">Typography</div>
+                            <a href="tran2.php" class="menu-link">
+                                <div class="menu-text">Daily Charges</div>
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a href="ui_tabs_accordions.html" class="menu-link">
-                                <div class="menu-text">Tabs & Accordions</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_unlimited_tabs.html" class="menu-link">
-                                <div class="menu-text">Unlimited Nav Tabs</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_modal_notification.html" class="menu-link">
-                                <div class="menu-text">Modal & Notification <i class="fa fa-paper-plane text-theme"></i></div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_widget_boxes.html" class="menu-link">
-                                <div class="menu-text">Widget Boxes</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_media_object.html" class="menu-link">
-                                <div class="menu-text">Media Object</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_buttons.html" class="menu-link">
-                                <div class="menu-text">Buttons <i class="fa fa-paper-plane text-theme"></i></div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_icons.html" class="menu-link">
-                                <div class="menu-text">Icons</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_simple_line_icons.html" class="menu-link">
-                                <div class="menu-text">Simple Line Icons</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_ionicons.html" class="menu-link">
-                                <div class="menu-text">Ionicons</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_tree.html" class="menu-link">
-                                <div class="menu-text">Tree View</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_language_bar_icon.html" class="menu-link">
-                                <div class="menu-text">Language Bar & Icon</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_social_buttons.html" class="menu-link">
-                                <div class="menu-text">Social Buttons</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_tour.html" class="menu-link">
-                                <div class="menu-text">Intro JS</div>
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                            <a href="ui_offcanvas_toasts.html" class="menu-link">
-                                <div class="menu-text">Offcanvas & Toasts <i class="fa fa-paper-plane text-theme"></i></div>
+                            <a href="tran3.php" class="menu-link">
+                                <div class="menu-text">Daily Product</div>
                             </a>
                         </div>
                     </div>
@@ -307,7 +242,7 @@ while($row = mysqli_fetch_array($result)) {
                 <div class="menu-item ">
                     <a href="bootstrap_5.html" class="menu-link">
                         <div class="menu-icon-img">
-                            <img src="../assets/img/logo/logo-bs5.png" alt="" />
+                            <img src="assets/img/logo/logo-bs5.png" alt="" />
                         </div>
                         <div class="menu-text">Bootstrap 5 <span class="menu-label">NEW</span></div>
                     </a>
